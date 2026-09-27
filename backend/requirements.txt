@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+python-dotenv
+pymupdf
+paddleocr
+paddlepaddle
+google-genai

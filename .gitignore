@@ -1,0 +1,42 @@
+# Python environments
+backend/venv/
+backend/.venv/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded documents
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Generated data
+backend/data/processed/*
+!backend/data/processed/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*_page_*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Windows
+Thumbs.db
+Desktop.ini
